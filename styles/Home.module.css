@@ -1,0 +1,144 @@
+.header{
+  height: 80px;
+  width: 100%;
+  background-color: #060606;
+  filter: drop-shadow(0 0 0.75rem black);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main p {
+  color: white;
+  font: bold 1.5rem/1.5rem 'Roboto', sans-serif;
+}
+.mainContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+}
+.right{
+  padding-right: 50px;
+}
+.text .self{
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.text h1{
+  color: white;
+  font-family: serif;
+  font-size: 80px;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+.pronoia{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.minted{
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.image{
+  min-width: 500px;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+.image p{
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.buttonContainer{
+  padding: 0% 10%;
+}
+
+.button1{
+  background-color: #A87240;
+  color: white;
+  border-radius: 25px;
+  border-color: #A87240;
+  border-style: solid;
+  padding: 0px 30px;
+  margin: 0px 100px 0px 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 3rem;
+
+  
+}
+.button1:hover{
+  
+  background-color: #181818;
+  color: white;
+  border-color: #A87240;
+  border-style: solid;
+}
+
+.button2{
+  height: 3rem;
+  background-color: #181818;
+  color: white;
+  border-color: #A87240;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 0px 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.button2:hover{
+  background-color: #181818;
+  color: white;
+}
+
+@media (max-width: 900px) {
+
+  .right{
+    padding-right: 0px;
+  }
+  .mainContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .text h1{
+    padding: 20px 0px;
+    line-height: 0.9;
+    font-size: 60PX;
+  }
+  .image{
+    min-width: 300px;
+    
+    padding: 45px 0px;
+  }	
+  .buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .button1{
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    
+  }
+  .button2{
+    font-size: 15px;
+  }
+}
+
